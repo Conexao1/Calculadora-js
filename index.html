@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Calculator</h1>
+    </header>
+    <main class="main" id="calculator">
+        <section class="display" id="display">
+            <p class="previus-display" id="previus-display"></p>
+            <p class="current-display" id="current-display"></p>
+        </section>
+        <section class="buttons" id="buttons">
+            <div class="numbers">
+                <div class="numbers-percentage-CE-C">
+                    <button class="number-button" id="percentage-button">%</button>
+                    <button class="number-button cancel-entry" id="CE-button">CE</button>
+                    <button class="number-button clear" id="C-button">C</button>
+                </div>
+                <div class="numbers-reverse-square-squareroot">
+                    <button class="number-button overx" id="reverse-button">1/x</button>
+                    <button class="number-button squared" id="squared-button">x²</button>
+                    <button class="number-button square-root" id="sqrt-button">√</button>
+                </div>
+                <div class="numbers-789">
+                    <button class="number-button number" id="seven-button" value="7">7</button>
+                    <button class="number-button number" id="eight-button" value="8">8</button>
+                    <button class="number-button number" id="nine-button" value="9">9</button>
+                </div>
+                <div class="numbers-456">
+                    <button class="number-button number" id="four-button" value="4">4</button>
+                    <button class="number-button number" id="five-button" value="5">5</button>
+                    <button class="number-button number" id="six-button" value="6">6</button>
+                </div>
+                <div class="numbers-123">
+                    <button class="number-button number" id="one-button" value="1">1</button>
+                    <button class="number-button number" id="two-button" value="2">2</button>
+                    <button class="number-button number" id="three-button" value="3">3</button>
+                </div>
+                <div class="numbers-singal-0-goma">
+                    <button class="number-button reverse-sign" id="plusminus-button">±</button>
+                    <button class="number-button number" id="zero-button" value="0">0</button>
+                    <button class="number-button operator goma" id="goma-button">.</button>
+                </div>
+            </div>
+            <div class="operators">
+                <button class="operator-button backspace" id="backspace-button"><img src="image/backspace.png"
+                        alt="backspace"></button>
+                <button class="operator-button operator" id="addition-button" value="+">+</button>
+                <button class="operator-button operator" id="subtracion-button" value="-">-</button>
+                <button class="operator-button operator" id="multiplication-button" value="*">*</button>
+                <button class="operator-button operator" id="division-button" value="/">/</button>
+                <button class="operator-button equal" id="equal-button">=</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy;Vinícius</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

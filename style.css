@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    transition: ease-in-out 0.5s;
+    padding: 0;
+    margin: 1;
+}
+
+body {
+    background-color: rgb(166, 166, 240);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    color: rgb(39, 39, 82);
+}
+
+.main {
+    border-radius: 10px;
+    padding: 10px;
+    height: max-content;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(23, 23, 49);
+    box-shadow: 5px 5px 10px rgb(23, 23, 49);
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 350px;
+    padding-right: 5px;
+    background-color: rgb(45, 45, 94);
+    color: white;
+    font-size: 40px;
+    font-style: normal;
+    overflow: hidden;
+
+}
+
+.previus-display {
+    display: flex;
+    align-self: flex-end;
+    padding: 0;
+    font-size: 20px;
+    margin: 1;
+}
+
+.current-display {
+    align-self: flex-end;
+    font-size: 40px;
+}
+
+.buttons {
+    padding: 10px;
+    display: flex;
+}
+
+.buttons button {
+    box-shadow: 2px 2px 2px black;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 1px;
+}
+
+.numbers button:hover {
+    cursor: pointer;
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.numbers-percentage-CE-C {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.numbers-reverse-square-squareroot {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.numbers-789 {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.numbers-456 {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.numbers-123 {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.numbers-singal-0-goma {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.number-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: grey;
+
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 1px;
+}
+
+.operators button:hover {
+    cursor: pointer;
+    box-shadow: none;
+    background-color: rgba(255, 166, 0, 0.5);
+}
+
+.operator-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 165, 0);
+}
+
+.operator-button img {
+    height: 40px;
+    width: 40px;
+}
+
+#equal-button {
+    background-color: rgb(165, 42, 42);
+}
+
+#equal-button:hover {
+    cursor: pointer;
+    box-shadow: none;
+    background-color: rgb(165, 42, 42, 0.5);
+}
+
+.footer {
+    font-style: italic;
+}
