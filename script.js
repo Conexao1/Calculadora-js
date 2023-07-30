@@ -35,7 +35,6 @@ pDisplay.style.display = "none"
 // Functions
 
 const updateDisplay = () => {
-    console.log(currentDisplay)
     previus = previusDisplay.join("")
     current = currentDisplay.join("")
     operatorUsed = previusDisplay[previusDisplay.length - 1]
@@ -43,8 +42,6 @@ const updateDisplay = () => {
     currentNumber = Number(currentDisplay.join(""))
     pDisplay.innerText = previus
     cDisplay.innerText = current
-    console.log(previus)
-    console.log(current)
     calculate(previusNumber, currentNumber, operatorUsed)
     adjustFontSize()
 }
@@ -89,7 +86,6 @@ const showResult = () => {
 }
 
 const performOperation = (operation) => {
-    console.log(operation)
     if (currentDisplay.length === 0) return
     switch (operation) {
         case "squareRoot":
@@ -198,7 +194,6 @@ numberInput.forEach((buttonClicked) => {
 operatorInput.forEach((buttonClicked) => {
     buttonClicked.addEventListener("click", () => {
         let clickedNumber = buttonClicked.textContent
-        console.log(clickedNumber)
         addDigit(clickedNumber)
     })
 })
