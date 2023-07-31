@@ -6,4 +6,6 @@ OBS: O projeto não está finalzado.
 
 https://conexao1.github.io/Calculadora-js/
 
-<img src="calc.png">
+<a href="https://conexao1.github.io/Calculadora-js/">
+  <img src="calc.png" alt="Calculadora"/>
+</a>
