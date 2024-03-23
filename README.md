@@ -1,5 +1,6 @@
 # Calculadora-js
-Calculadora simples criada em Html, CSS e JavaScript sem uso de bibliotecas.
+Calculadora simples criada em: Html, CSS e JavaScript.
+Sem uso de bibliotecas.
 
 É o primeiro projeto que eu posto no GitHub.
 OBS: O projeto não está finalzado.
